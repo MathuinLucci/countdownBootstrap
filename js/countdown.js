@@ -11,7 +11,7 @@ Original credit:
 */
 
 showClock();
-setInterval("showClock()", 1000);
+setInterval("showClock()", 500);
 
 function showClock() {
 
