@@ -29,41 +29,43 @@
     </head>
 
 <body>
-    <div class="container">
+    <div class="container justify-content-center">
         <div class="row">
             <div class="col-12">
                 <header>
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-12">
                             <div id="currentTime"> 
                             <!--text from countdown code gets instered here because it finds the id "currentTime" and inputs the HTML code + the data values calculated  by the showClock function-->        
-                            </div><!--closing div tag for div id="currentTime"-->
+                                </div><!--closing div tag for div id="currentTime"-->
         
-                        </div> <!--closing div for col containting the currrentTime-->
-                    </div> <!--closing div for the row containing the currentTime col-->
+                            </div> <!--closing div for col containting the currrentTime-->
+                        </div> <!--closing div for the row containing the currentTime col-->
         
-                    <h1 class="text-center">Countdown to NYC</h1>
-                    <div class="text-center" id="eventDate">
-                        12/22/2024
-                    </div> <!--closing div for the event date-->    
+                    <div class="row justify-content-center">
+                        <h1 class="text-center">Countdown to NYC</h1>
+                        <div class="text-center" id="eventDate">
+                            12/22/2024
+                        </div> <!--closing div for the event date-->    
         
-                    <div class="row justify-content-center" >
-                        <div class="col-2 text-center border border-2 border-danger">
-                            <div class=box> <span id="dLeft"></span></div> DAYS,
-                        </div>
+                        <div class="row justify-content-center" >
+                            <div class="col-2 text-center border border-2 border-danger">
+                                <div class=box> <span id="dLeft"></span></div> DAYS,
+                            </div>
                         
-                        <div class="col-2 text-center border border-2 border-danger">
-                            <div class=box><span id="hLeft"></span></div>HOURS,
-                        </div>
+                            <div class="col-2 text-center border border-2 border-danger">
+                                <div class=box><span id="hLeft"></span></div>HOURS,
+                            </div>
                             
-                        <div class="col-2 text-center border border-2 border-danger">
-                            <div class=box><span id="mLeft"></span></div> MINUTES,
-                        </div>
+                            <div class="col-2 text-center border border-2 border-danger">
+                                <div class=box><span id="mLeft"></span></div> MINUTES,
+                            </div>
                                 
-                        <div class="col-2 text-center border border-2 border-danger">
-                            <div class=box  ><span id="sLeft"></span></div> SECONDS
+                            <div class="col-2 text-center border border-2 border-danger">
+                                <div class=box  ><span id="sLeft"></span></div> SECONDS
+                            </div>
                         </div>
-                    </div>
+                    </div> <!--closing div for the row containing the whole header-->
                  </header>
         
             </div> <!---Closing div tag for the column containing the header, but not the coutndown, sized col-12-->
@@ -73,11 +75,11 @@
             </div>
         </div><!--Closing div tag for the row containing the countdown's column-->
 
-        <div class="row">
-            <div class="col-3">
-                <nav>
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <nav class=nav>
                     <ul>
-                        <div class="nav text-start" id="activities">
+                        <div class="text-start" id="activities">
                             Activities
                         </div>
         
@@ -113,7 +115,7 @@
                     </ul>
         
                     <ul>
-                        <div class="nav" id=food>
+                        <div id=food>
                             Food
                         </div>
                         
@@ -158,7 +160,7 @@
                     </ul>
         
                     <ul>
-                        <div class="nav" id=entertainment>
+                        <div id=entertainment>
                             Entertainment
                         </div>
         
@@ -191,14 +193,14 @@
                 </nav>
             </div><!--closing tag for the column surrounding the nav element, sized col-3. These are sized out of 12, right?-->
             
-            <div class="col-9">
-                <section class="text-center">
+            <div class="col-7">
+                <section class="text-center surround-red">
                     <h2>What's got me excited?</h2>
                     <img src="./img/drive1.gif" alt="image1" />
                     <p>For Christmas and New Years, I will be going to New Your City with my girlfriend. She surprised me with tickets a few weeks ago and I've been quietly excited about it ever since. We will be there to see the ball drop on Christmas Eve as well. That's something I would only enjoy in person. It isn't often I get to travel like this, and I've never been to New York City so my expectations are high!</p>
                 </section>
         
-                <section class="text-center">
+                <section class="text-center surround-red">
                     <h2>Why does that excite me?</h2>
                     
                     <img src="./img/excited.gif" alt="image2" />
@@ -206,7 +208,7 @@
                     <p>Why am I excited for this? Why wouldn't I be? We're staying at her Uncle's place to watch the dogs while they're away, but it works out perfectly because we are only a 1-hour drive away from seeing my distant family, whom I haven't seen in 17 years. On the other hand, there's a lot of things to do in New York City, some of which I've linked in the sidebar. Personally, I'm looking forward to the hotpots, the Aquarium, and the escape rooms. We're also going to see The Book of Mormon on Broadway! This is definitely a trip to be excited about!</p>
                 </section>
                 
-                <section class="text-center">
+                <section class="text-center surround-red">
                     <h2>Why should you want to go?</h2>
                     
                     <img src="./img/why.gif" alt="image3" />
@@ -217,8 +219,8 @@
             </div> <!--closign div tag for the colum surrounding the section element, sized col-9. These are sized out of 12, right?-->
         </div><!--closing tag for 1st row, the one around the nav and section elements-->
 
-        <div class="row">
-            <div class="col-12 text-center">
+        <div class="row justify-content-center">
+            <div class="col-10 text-center surround-orange">
                 <footer>This is a student project. Code and design &#169; 2024 Pissed Off Programmers Studio LLC. All rights reserved.
                 </footer>
             

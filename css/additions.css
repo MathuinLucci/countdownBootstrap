@@ -6,3 +6,21 @@
     outline-style: inset;
     outline: 2px solid orange;
 }
+
+.surround-red {
+    outline: 3px solid red;
+}
+
+.surround-orange{
+    outline: 3px solid orange;
+}
+
+.nav {
+    outline: 3px solid orangered
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
