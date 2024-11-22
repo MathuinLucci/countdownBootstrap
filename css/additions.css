@@ -4,6 +4,11 @@
     background-color:#F06292;
 }
 
+.bg-orange {
+    background-color: #ff9900;
+}
+    
+
 .border {
     border-style: inset;
     border-color: orange;
